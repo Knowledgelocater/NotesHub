@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    gap: 5vw ;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    font-weight: 700;
+    font-style: italic;
+}
+.table1{
+    background-color: rgb(255, 243, 197);
+    margin: 5vw;
+    min-width: 30vw;
+    min-height: 50%;
+    overflow: auto;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+}
+table, th, td{
+    border: 1px solid ;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
